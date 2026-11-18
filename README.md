@@ -1,8 +1,8 @@
-start_kosten = 4.80 
+start_price = 4.80 
 km = 15
 if km <= 10:
-    kosten = 6 
+    costs = 6 
 else:
-    kosten = 5
-Total = (km * kosten) + start_kosten 
-print("Deine Kosten sind:", Total, "Euro")
+    costs = 5
+total = (km * costs) + start_price 
+print("Your costs are:", total, "Euro")
