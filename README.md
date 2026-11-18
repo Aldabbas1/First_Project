@@ -1,2 +1,8 @@
-# First_Project
-I started coding today, and here's my first project! Well, technically it's my second project because Hello World! was the first one. For this project, I used VS Code, programmed in Python, and worked in a Jupyter Notebook.
+start_kosten = 4.80 
+km = 15
+if km <= 10:
+    kosten = 6 
+else:
+    kosten = 5
+Total = (km * kosten) + start_kosten 
+print("Deine Kosten sind:", Total, "Euro")
